@@ -280,9 +280,6 @@ public class TitleBar extends RelativeLayout {
             }
             if (mUseQuickControls && !isEditingUrl()) {
                 setShowProgressOnly(true);
-                if (!mShowing) {
-                    show();
-                }
             }
         }
     }
